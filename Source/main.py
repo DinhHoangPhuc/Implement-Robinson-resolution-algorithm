@@ -151,6 +151,10 @@ def PL_Resolution(KB, alpha):
             
 #_________________________________________________________________________________
 def Main():
+    import os
+
+    # Xem thư mục làm việc hiện tại
+    print(os.getcwd())
     # GET INPUT
     KB, alpha = ReadFileInput('input.txt')
     
